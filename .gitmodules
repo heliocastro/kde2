@@ -1,0 +1,6 @@
+[submodule "qt2"]
+	path = qt2
+	url = git@github.com:heliocastro/qt2.git
+[submodule "kdelibs"]
+	path = kdelibs
+	url = git@github.com:heliocastro/kdelibs.git
