@@ -28,12 +28,10 @@ The current status:
 
 To build it:
 
-- Clone the super repo
-`git clone --recursive git@github.com:heliocastro/kde2.git
-cd kde2
-
-mkdir build
-cmake ..`
+- Clone the super repo: `git clone --recursive git@github.com:heliocastro/kde2.git`
+- Enter the directory: `cd kde2`
+- Create an non source build dir ( i usually use build ): `mkdir build`
+- Run cmake: `cmake ..`
 
 My default compiler is Clang on Fedora Linux 27 at this moment
 I can't remember all required libraries, so for now you need run cmake and see what is missing on your side.
