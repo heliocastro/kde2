@@ -39,5 +39,7 @@ I can't remember all required libraries, so for now you need run cmake and see w
 I will thanks any help, been clear that this is probably a uselles project, but has some meaning for me at least.
 
 Again thanks to:
+
 **Gustavo Boiko** - @boiko
+
 @EXL
