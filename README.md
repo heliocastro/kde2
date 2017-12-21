@@ -26,7 +26,7 @@ The current status:
 - MOst software can compiled directo from the super repo, but to test unfortunately we need to run dcop and have install
   directory properly setted. This will be preperly test when kdebase port start ( soon i hope, crossing my fingers).
 
-To build it:
+**Building:**
 
 - Clone the super repo: `git clone --recursive git@github.com:heliocastro/kde2.git`
 - Enter the directory: `cd kde2`
