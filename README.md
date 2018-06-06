@@ -14,7 +14,7 @@ The current status:
 - There's a issue as Qt2 didn't recognize ARGB visuals on thos times ( of course ! ), so thanks to Gustavo Boiko that
   found the issue. So, if you do intend to run software like Qt designer, export this on command line:
   `XLIB_SKIP_ARGB_VISUALS=1`
-- Compilation depends on byacc. ONe of the sources are not ported to modern bison/flex. Thanks to @EXl for pinting this
+- Compilation depends on byacc. One of the sources are not ported to modern bison/flex. Thanks to @EXl for pointing this
   out
 
 **kdelibs** is done with some remarks:
