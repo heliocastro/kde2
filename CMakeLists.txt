@@ -6,7 +6,7 @@ project(kde2
 
 include(GNUInstallDirs)
 
-set(_projects Qt2)
+set(_projects Qt2 kdelibs2)
 macro(find_package)
     if(NOT "${ARGV0}" IN_LIST _projects)
         _find_package(${ARGV})
@@ -15,3 +15,4 @@ endmacro()
 
 add_subdirectory(qt2)
 add_subdirectory(kdelibs)
+add_subdirectory(ktimetrace)
