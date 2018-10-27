@@ -14,7 +14,7 @@ The current status:
 - There's a issue as Qt2 didn't recognize ARGB visuals on thos times ( of course ! ), so thanks to Gustavo Boiko that
   found the issue. So, if you do intend to run software like Qt designer, export this on command line:
   `XLIB_SKIP_ARGB_VISUALS=1`
-- Compilation depends on byacc. ONe of the sources are not ported to modern bison/flex. Thanks to @EXl for pinting this
+- Compilation depends on byacc. One of the sources are not ported to modern bison/flex. Thanks to @EXl for pointing this
   out
 
 **kdelibs** is done with some remarks:
@@ -33,8 +33,13 @@ The current status:
 - Create an non source build dir ( i usually use build ): `mkdir build`
 - Run cmake: `cmake ..`
 
-My default compiler is Clang on Fedora Linux 27 at this moment
-I can't remember all required libraries, so for now you need run cmake and see what is missing on your side.
+My default compiler is Clang on Fedora Linux 28 at this moment
+
+**Ubuntu Dependencies ( from 16.04 and beyond)**
+
+```bash
+sudo apt install bison byacc cmake flex freeglut3-dev libacl1-dev libasound2-dev libbz2-dev libfreetype-dev libgl1-mesa-dev libjpeg-dev libltdl-dev libmng-dev libpcre3-dev libtiff5-dev libxft2-dev libxml2-dev libxmu-dev libxslt-dev pkg-config 
+```
 
 I will thanks any help, been clear that this is probably a uselles project, but has some meaning for me at least.
 
